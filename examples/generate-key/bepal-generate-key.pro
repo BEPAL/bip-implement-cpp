@@ -5,9 +5,8 @@ CONFIG -= qt
 
 INCLUDEPATH += $$PWD/../../src/
 
-INCLUDEPATH += $$PWD/../../depends/include/
-
-LIBS += -L$$PWD/../../depends/lib/openssl/ -llibeay32
+win32::INCLUDEPATH += $$PWD/../../depends/include/
+win32::LIBS += -L$$PWD/../../depends/lib/openssl/ -llibeay32
 
 
 SOURCES += \
@@ -20,7 +19,7 @@ SOURCES += \
     $$PWD/../../src/crypto/pbkdf2sha512.cpp \
     $$PWD/../../src/crypto/sha512.cpp \
     $$PWD/main.cpp \
-    bpgeneratekey.cpp
+    $$PWD/bpgeneratekey.cpp
 
 HEADERS += \
     $$PWD/../../src/keytreeutil.h \
@@ -42,4 +41,4 @@ HEADERS += \
     $$PWD/../../src/crypto/sha512.h \
     $$PWD/../../src/compat/byteswap.h \
     $$PWD/../../src/compat/endian.h \
-    bpgeneratekey.h
+    $$PWD/bpgeneratekey.h
