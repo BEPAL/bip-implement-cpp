@@ -1,6 +1,5 @@
 Generate Key
 ----------
-
 generate-key is a use custom phrases to create public and private keys that match the bitcoin specification..
 
 
