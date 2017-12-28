@@ -1,12 +1,14 @@
-# Generate Key
+Generate Key
 ----------
 generate-key is a use custom phrases to create public and private keys that match the bitcoin specification..
 
 
-# Testing
+Testing
 ----------
 
-Multiple test cases are provided, under the "tests" directory.
+Multiple test cases are provided, under the "examples" directory.
 
 Under their respective directories, they have their own use-case documents。
 
+
+Building
