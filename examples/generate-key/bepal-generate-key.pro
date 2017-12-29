@@ -10,7 +10,7 @@ win32::LIBS += -L$$PWD/../../depends/lib/openssl/ -llibeay32
 
 
 SOURCES += \
-    $$PWD/../../src/keytreeutil.cpp \
+    $$PWD/keytreeutil.cpp \
     $$PWD/../../src/keynode/keynode.cpp \
     $$PWD/../../src/keynode/logger.cpp \
     $$PWD/../../src/keynode/CoinClasses/hdkeys.cpp \
@@ -22,7 +22,7 @@ SOURCES += \
     $$PWD/bpgeneratekey.cpp
 
 HEADERS += \
-    $$PWD/../../src/keytreeutil.h \
+    $$PWD/keytreeutil.h \
     $$PWD/../../src/keynode/keynode.h \
     $$PWD/../../src/keynode/logger.h \
     $$PWD/../../src/keynode/stringutils.h \
