@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="keynode">
+      <UniqueIdentifier>{909961d5-53ea-4a23-b0b0-55cdbf171fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="keynode\CoinClasses">
+      <UniqueIdentifier>{730e586b-5889-4713-93b4-3b2ae9e1ab6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\tree\keytreeutil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tree\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\keynode\keynode.cpp">
+      <Filter>keynode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\keynode\logger.cpp">
+      <Filter>keynode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\keynode\CoinClasses\hdkeys.cpp">
+      <Filter>keynode\CoinClasses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\tree\keytreeutil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\keynode\keynode.h">
+      <Filter>keynode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\keynode\logger.h">
+      <Filter>keynode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\keynode\stringutils.h">
+      <Filter>keynode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\keynode\CoinClasses\Base58Check.h">
+      <Filter>keynode\CoinClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\keynode\CoinClasses\BigInt.h">
+      <Filter>keynode\CoinClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\keynode\CoinClasses\encodings.h">
+      <Filter>keynode\CoinClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\keynode\CoinClasses\hash.h">
+      <Filter>keynode\CoinClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\keynode\CoinClasses\hdkeys.h">
+      <Filter>keynode\CoinClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\keynode\CoinClasses\secp256k1.h">
+      <Filter>keynode\CoinClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\keynode\CoinClasses\typedefs.h">
+      <Filter>keynode\CoinClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\keynode\CoinClasses\uchar_vector.h">
+      <Filter>keynode\CoinClasses</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
