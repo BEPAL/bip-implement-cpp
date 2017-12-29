@@ -3,7 +3,7 @@
 #include <math.h>
 #include <algorithm>
 #include <exception>
-#include "crypto\hmac_sha512.h"
+#include "hmac_sha512.h"
 
 PBKDF2SHA512::PBKDF2SHA512()
 {

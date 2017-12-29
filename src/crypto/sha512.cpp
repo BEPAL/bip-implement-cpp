@@ -1,7 +1,7 @@
 
-#include "crypto/sha512.h"
+#include "sha512.h"
 
-#include "crypto/common.h"
+#include "common.h"
 
 #include <string.h>
 
