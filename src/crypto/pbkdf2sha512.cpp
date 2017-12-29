@@ -3,6 +3,7 @@
 #include <math.h>
 #include <algorithm>
 #include <exception>
+
 #include "hmac_sha512.h"
 
 PBKDF2SHA512::PBKDF2SHA512()
@@ -40,8 +41,8 @@ std::vector<unsigned char> PBKDF2SHA512::derive(const std::string & P,
 
 
 std::vector<unsigned char> PBKDF2SHA512::F(const std::string & P,
-                                           const std::string& S,
-                                           int c, int i) {
+                                           const std::string& /*S*/,
+                                           int c, int/* i*/) {
     std::vector<unsigned char> U_LAST;
     std::vector<unsigned char> U_XOR(64,0);
 
