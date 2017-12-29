@@ -1,4 +1,3 @@
-
 #include "hmac_sha512.h"
 
 #include <string.h>
