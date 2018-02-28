@@ -20,7 +20,7 @@ BPGenerateKey::BPGenerateKey(const std::list<std::string> &words, int _idx,
 
 
 void BPGenerateKey::printBitcoin(void) {
-    // get bitcond node
+    // get bitcoin node
     KeyNode key_node = rootKeyNode_[KeyNode::CoinType::Bitcoin];
 
     // print node information
@@ -30,7 +30,7 @@ void BPGenerateKey::printBitcoin(void) {
 }
 
 void BPGenerateKey::printBitcoin_Testnet(void) {
-    // get bitcond node
+    // get bitcoin node
     KeyNode key_node = rootKeyNode_[KeyNode::CoinType::Bitcoin_Testnet];
 
     // print node information
@@ -40,7 +40,7 @@ void BPGenerateKey::printBitcoin_Testnet(void) {
 }
 
 void BPGenerateKey::printLitecoin(void) {
-    // get bitcond node
+    // get bitcoin node
     KeyNode key_node = rootKeyNode_[KeyNode::CoinType::Litecoin];
 
     // print node information
